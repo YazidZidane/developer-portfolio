@@ -26,12 +26,12 @@ export default function Home({
       <Navigation />
       <Greetings />
       <Skills />
-      <Proficiency />
-      <Education />
+      {/* <Proficiency /> */}
       <Experience />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <Projects />
-      {showContactUs ? <Contact /> : null}
+      <Education />
+      {/* {showContactUs ? <Contact /> : null} */}
       <GithubProfileCard {...githubProfileData} />
     </div>
   );

@@ -3,7 +3,12 @@ import { Card, Col, Row, Container } from 'reactstrap';
 import { GithubUserType } from '../types';
 import SocialLinks from './SocialLinks';
 
-const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
+const GithubProfileCard = ({
+  avatar_url,
+  bio,
+  location,
+  email,
+}: GithubUserType) => {
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
@@ -20,8 +25,14 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
-                ALL
+                DISCUSS A PROJECT OR JUST WANT TO SAY HI? <br />
+                CONTACT ME AT{' '}
+                <a
+                  href="mailto:tedxu9804@gmail.com"
+                  style={{ textDecoration: 'none', color: 'white' }}
+                >
+                  tedxu9804@gmail.com
+                </a>
               </p>
               <p className="text-white mt-3">{bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">

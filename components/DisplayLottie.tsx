@@ -15,7 +15,7 @@ const GreetingLottie = ({ animationPath }: Props) => {
   return (
     <div onClick={() => null}>
       {/* @ts-ignore */}
-      <Lottie options={defaultOptions} />
+      <Lottie options={defaultOptions} ariaRole={'notButton'} />
     </div>
   );
 };
