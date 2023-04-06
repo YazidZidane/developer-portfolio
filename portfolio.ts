@@ -119,31 +119,31 @@ export const experience: ExperienceType[] = [
     role: 'Software Engineer',
     company: 'Surpath Inc.',
     companyLogo: '/img/icons/common/surpath.png',
-    date: 'Mar 2022 – Present',
+    date: 'Sep 2021 – Present',
     desc: `I worked as software developer and designed a web based dashboard. The E2E Dashboard integrates all the essential procedures in a supply chain into a single,
       unified platform. With just a few clicks, users can easily create orders with specified origins and destinations, select carriers, and dispatch deliveries.
        Once an order has been dispatched, users can monitor its progress in real-time via the dashboard. 
        It can also generate delivery order calendars and data visualization charts to support efficient and effective decision-making.`,
   },
-  {
-    role: 'Software Engineer',
-    company: 'Koudai Caifu Information Technology Ltd',
-    companyLogo: '/img/icons/common/caifu.png',
-    date: 'Jan 2021 – Jan 2022',
-    desc: `I developed an online e-commerce platform that offers a wide range of financial products to customers.
-      The website is user-friendly, having clear and detailed information on all products,
-      customers are easy to search and compare financial products. The platform also includes a variety of filters that 
-      allow customers to narrow down their search to find the ideal product that meets their requirements.`,
-    // descBullets: [
-    //   'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-    //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    // ],
-  },
+  // {
+  //   role: 'Software Engineer',
+  //   company: 'Koudai Caifu Information Technology Ltd',
+  //   companyLogo: '/img/icons/common/caifu.png',
+  //   date: 'Jan 2021 – Jan 2022',
+  //   desc: `I developed an online e-commerce platform that offers a wide range of financial products to customers.
+  //     The website is user-friendly, having clear and detailed information on all products,
+  //     customers are easy to search and compare financial products. The platform also includes a variety of filters that
+  //     allow customers to narrow down their search to find the ideal product that meets their requirements.`,
+  //   // descBullets: [
+  //   //   'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
+  //   //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+  //   // ],
+  // },
   {
     role: 'Software Engineer',
     company: 'Northeast Securities',
     companyLogo: '/img/icons/common/dongbei.png',
-    date: 'Aug 2019 - Dec 2020',
+    date: 'Sep 2019 - Jun 2021',
     desc: `Northeast Securities is a securities company located in Changchun, Jilin, China.
           Developed an internal management system that increased efficiency for the operations for the information technology team.
           The system includes an interactive management for centralized monitoring and control of the main servers across China 
@@ -155,7 +155,7 @@ export const experience: ExperienceType[] = [
     role: 'Software Engineer',
     company: 'Huaxia Hongyuan Technology Ltd',
     companyLogo: '/img/icons/common/huaxia.png',
-    date: 'Feb 2018 - Jun 2019',
+    date: 'Jun 2018 - Aug 2019',
     desc: `I developed an application that can automatically extract the construction contour data from the Baidu map custom map API.
      It uses Baidu map API to display a map in the browser and allows them to select any area, then the program could automatically call
       the backend to run the Python script to retrieve the contour data and save it locally or into databases. The application has been 
@@ -165,12 +165,12 @@ export const experience: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
-  {
-    name: 'Weather Search App',
-    desc: 'A weather forecast application that can shows you detailed weather forecast via data and interactable graphs. The application is developed based on Angular and Express.',
-    // github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: ' https://node-weather-9418.wl.r.appspot.com/',
-  },
+  // {
+  //   name: 'Weather Search App',
+  //   desc: 'A weather forecast application that can shows you detailed weather forecast via data and interactable graphs. The application is developed based on Angular and Express.',
+  //   // github: 'https://github.com/1hanzla100/developer-portfolio',
+  //   link: ' https://node-weather-9418.wl.r.appspot.com/',
+  // },
   {
     name: 'Sweet Dream',
     desc: 'This is a 3D horror, escape-room game that I developed with a group.',
