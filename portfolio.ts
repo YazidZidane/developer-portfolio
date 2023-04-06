@@ -29,13 +29,13 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://yazidzidane.github.io/',
+  // url: 'https://yazidzidane.github.io/',
   // linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/YazidZidane',
-  instagram: 'https://www.instagram.com/xjtcoco/',
+  // github: 'https://github.com/YazidZidane',
+  // instagram: 'https://www.instagram.com/xjtcoco/',
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
-  blog: '',
+  // blog: '',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -47,7 +47,7 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Strong knowledge of HTML, CSS, and JavaScript with extensive experience in React and React libraries'
+          '⚡ Solid foundation of HTML, CSS, and JavaScript with extensive experience in React and React libraries'
         ),
         emoji(
           '⚡ Hands-on experience in state management tools in React such as Context API and Redux'
