@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Ted Xu',
   title: 'Hi, This is Ted',
   description:
-    'A passionate software developer with massive experience in developing web applications. I mostly focused on frontend development using HTML, CSS, JavaScript, TypeScript, Sass, jQuery, React, Redux, Angular and Node.js etc.',
+    'A passionate software developer with massive experience in developing web applications. I mostly focused on web development using using React, Next.js, Redux, TypeScript, Sass, jQuery, Angular and Node.js etc.',
   // "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
     'https://docs.google.com/document/d/1xAsXqOOwc7-hMnxe8bfkLnOkUeX5FvUhiThuegJFBL0/edit?usp=sharing',
@@ -40,14 +40,14 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'I am',
-  subTitle: 'A PASSIONATE SOFTWARE DEVELOPER WITH 5 YEARS OF EXPERIENCE',
+  subTitle: 'A PASSIONATE SOFTWARE DEVELOPER WITH ABOUT 6 YEARS OF EXPERIENCE',
   data: [
     {
       title: 'Software Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Solid foundation of HTML, CSS, and JavaScript with extensive experience in React and React libraries'
+          '⚡ Solid foundation of web development with extensive experience in React, React libraries and Next.js'
         ),
         emoji(
           '⚡ Hands-on experience in state management tools in React such as Context API and Redux'
@@ -77,6 +77,10 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
+          skillName: 'Nextjs',
+          fontAwesomeClassName: 'logos:nextjs-icon',
+        },
+        {
           skillName: 'Redux',
           fontAwesomeClassName: 'logos:redux',
         },
@@ -104,10 +108,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Jest',
           fontAwesomeClassName: 'vscode-icons:file-type-jest',
-        },
-        {
-          skillName: 'Cpp',
-          fontAwesomeClassName: 'vscode-icons:file-type-cpp',
         },
       ],
     },
@@ -155,7 +155,7 @@ export const experience: ExperienceType[] = [
     role: 'Software Engineer',
     company: 'Huaxia Hongyuan Technology Ltd',
     companyLogo: '/img/icons/common/huaxia.png',
-    date: 'Jun 2018 - Aug 2019',
+    date: 'Nov 2017 - Aug 2019',
     desc: `I developed an application that can automatically extract the construction contour data from the Baidu map custom map API.
      It uses Baidu map API to display a map in the browser and allows them to select any area, then the program could automatically call
       the backend to run the Python script to retrieve the contour data and save it locally or into databases. The application has been 
